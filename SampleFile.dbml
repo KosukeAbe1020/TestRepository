@@ -1,0 +1,7 @@
+Table users {
+  id integer
+  username varchar
+  role varchar
+  created_at timestamp
+  status integer
+}
