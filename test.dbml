@@ -11,17 +11,17 @@ Table MS_user {
 
 }
 
-Table MS_item {
-  item_id integer [primary key]
-  item_name varchar
-  price integer
-
-}
-
 Table TR_purchase {
   user_id integer [primary key]
   item_id integer [primary key]
   purchase_date date
+
+}
+
+Table MS_item {
+  item_id integer [primary key]
+  item_name varchar
+  price integer
 
 }
 
